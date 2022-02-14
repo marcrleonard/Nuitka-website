@@ -4,6 +4,13 @@
 
 This page is used for experiments in web design with Sphinx.
 
+This could be our language switching
+
+.. dropdown:: |DEBIAN_LOGO|
+
+    |UBUNTU_LOGO|
+    |MINT_LOGO|
+
 New style Stripe Checkout for Nuitka commercial:
 
 .. grid:: 1 2 2 4
@@ -77,3 +84,10 @@ New style Stripe Checkout for Nuitka commercial:
        - Roadmap Influence
 
        - Use Cases Priority
+
+
+.. |DEBIAN_LOGO| image:: images/debian.png
+
+.. |UBUNTU_LOGO| image:: images/ubuntu.png
+
+.. |MINT_LOGO| image:: images/mint.png
