@@ -73,8 +73,7 @@ x_blog_feed_templates = {
     # Create content text suitable posting to social media
     "social": {
         # Format tags as hashtags and append to the content
-        "content":
-        "{{ title }}{% for tag in post.tags %}"
+        "content": "{{ title }}{% for tag in post.tags %}"
         " #{{ tag.name|trim()|replace(' ', '') }}"
         "{% endfor %}",
     },
