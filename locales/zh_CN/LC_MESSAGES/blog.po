@@ -20,9 +20,9 @@ msgstr ""
 
 #: ../../intl/blog.rst:3
 msgid "Nuitka Blog"
-msgstr ""
+msgstr "Nuitka 博客"
 
 #: ../../intl/blog.rst:5
 msgid "For the English blog, see: :nuitka:`blog`."
-msgstr ""
+msgstr "有关英文博客，请参阅：:nuitka:`blog`。"
 
