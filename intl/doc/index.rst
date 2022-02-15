@@ -3,7 +3,8 @@
 ****************
 
 .. toctree::
-
+   :hidden:
+   
    Download <download>
    User Manual <user-manual>
    support
