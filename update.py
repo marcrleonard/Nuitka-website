@@ -271,7 +271,7 @@ def updateDownloadPage():
         return match.group(1)
 
     def makeRepositoryUrl(path):
-        return "https://nuitka.net/" + path
+        return f'https://nuitka.net/{path}'
 
     deb_info = {}
 
@@ -719,7 +719,7 @@ compatible Python compiler,  `"download now" </doc/download.html>`_.\n""",
                 slug = "minor-" + slug.replace("nuitka-release", "release-nuitka")
 
             output_path = "doc/posts"
-            txt_path = os.path.join(output_path, slug + ".rst")
+            txt_path = os.path.join(output_path, f'{slug}.rst')
 
             if os.path.exists(txt_path):
                 pub_date = open(txt_path).readline().split(maxsplit=2)[2].strip()
@@ -812,8 +812,9 @@ def runPostProcessing():
 
     js_set_1 = ["jquery", "underscore", "doctools", "js/theme"]
     js_set_1_contents = "\n".join(
-        getFileContents("output/_static/" + js_name + ".js") for js_name in js_set_1
+        getFileContents(f'output/_static/{js_name}.js') for js_name in js_set_1
     )
+
 
     js_set_1_contents += """
 jQuery(function () {
@@ -825,7 +826,7 @@ jQuery(function () {
         js_set_1_contents
     )
 
-    putTextFileContents("output" + js_set_1_output_filename, js_set_1_contents)
+    putTextFileContents(f'output{js_set_1_output_filename}', js_set_1_contents)
 
     for filename in getFileList("output", only_suffixes=".html"):
         doc = html.fromstring(getFileContents(filename, mode="rb"))
@@ -841,7 +842,7 @@ jQuery(function () {
         css_links = doc.xpath("//link[@rel='stylesheet']")
         assert css_links
 
-        css_filenames = [
+        if css_filenames := [
             os.path.normpath(
                 "output/%s/%s"
                 % (
@@ -852,9 +853,7 @@ jQuery(function () {
             for css_link in css_links
             if "combined_" not in css_link.get("href")
             if "copybutton" not in css_link.get("href") or has_highlight
-        ]
-
-        if css_filenames:
+        ]:
             output_filename = "/_static/css/combined_%s.css" % getHashFromValues(
                 *css_filenames
             )
@@ -882,20 +881,18 @@ jQuery(function () {
                 merged_css = re.sub(r"/\*.*?\*/", "", merged_css, flags=re.S)
                 merged_css = re.sub(r"\s+\n", r"\n", merged_css, flags=re.M)
 
-                putTextFileContents(
-                    filename="output" + output_filename, contents=merged_css
-                )
+                putTextFileContents(filename=f'output{output_filename}', contents=merged_css)
 
             css_links[0].attrib["href"] = output_filename
             for css_link in css_links[1:]:
                 css_link.getparent().remove(css_link)
 
         for link in doc.xpath("//a[not(contains(@classes, 'intern'))]"):
-            if link.attrib["href"].startswith("http:") or link.attrib[
-                "href"
-            ].startswith("https:"):
-                if "nuitka.net" not in link.attrib["href"]:
-                    link.attrib["target"] = "_blank"
+            if (
+                link.attrib["href"].startswith("http:")
+                or link.attrib["href"].startswith("https:")
+            ) and "nuitka.net" not in link.attrib["href"]:
+                link.attrib["target"] = "_blank"
 
         (logo_img,) = doc.xpath("//img[@class='logo']")
 
