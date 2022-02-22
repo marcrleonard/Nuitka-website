@@ -163,8 +163,8 @@ extlinks = {
     'nuitka': (f'{html_baseurl}/%s', ''),
 }
 
-html_static_path = [f"{ROOT}/_static"]
-html_context = {}
-# Add fake versions for local QA of the menu
-html_context['test_versions'] = ['latest', 'translation']
-html_context['locale_versions'] = ['zh_CN']
+# html_static_path = [f"{ROOT}/_static"]
+# html_context = {}
+# # Add fake versions for local QA of the menu
+# html_context['test_versions'] = ['latest', 'translation']
+# html_context['locale_versions'] = ['zh_CN']
