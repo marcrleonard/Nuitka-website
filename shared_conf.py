@@ -90,43 +90,43 @@ html_show_sphinx = False
 favicons = [
     {
         "rel": "icon",
-        "static-file": f"favicon.svg",
+        "static-file": "favicon.svg",
         "type": "image/svg+xml",
     },
     {
         "rel": "icon",
         "sizes": "32x32",
-        "static-file": f"favicon.png",
+        "static-file": "favicon.png",
     },
     {
         "rel": "icon",
         "sizes": "32x32",
-        "static-file": f"favicon.ico",
+        "static-file": "favicon.ico",
     },
     {
         "rel": "icon",
         "sizes": "57x57",
-        "static-file": f"apple-touch-icon-iphone.png",
+        "static-file": "apple-touch-icon-iphone.png",
     },
     {
         "rel": "icon",
         "sizes": "72x72",
-        "static-file": f"apple-touch-icon-ipad.png",
+        "static-file": "apple-touch-icon-ipad.png",
     },
     {
         "rel": "icon",
         "sizes": "114x114",
-        "static-file": f"apple-touch-icon-iphone4.png",
+        "static-file": "apple-touch-icon-iphone4.png",
     },
     {
         "rel": "icon",
         "sizes": "144x144",
-        "static-file": f"apple-touch-icon-ipad3.png",
+        "static-file": "apple-touch-icon-ipad3.png",
     },
     {
         "rel": "apple-touch-icon",
         "sizes": "180x180",
-        "static-file": f"apple-touch-icon-180x180.png",
+        "static-file": "apple-touch-icon-180x180.png",
     },
 ]
 
