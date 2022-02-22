@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Nuitka the Python Compiler \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-16 01:36+0800\n"
+"POT-Creation-Date: 2022-02-22 11:07+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: xinetzone <735613050@qq.com>, 2022\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -84,13 +84,17 @@ msgid ""
 msgstr ""
 
 #: ../../README.rst:75
+msgid "important"
+msgstr ""
+
+#: ../../README.rst:77
 msgid ""
 "Before translating, I would love you to also actually review the content,"
 " if you agree it makes sense, if it can be better structured. This is "
 "very much needed unfortunately."
 msgstr ""
 
-#: ../../README.rst:81
+#: ../../README.rst:83
 msgid ""
 "There are plans to get rid of ``pages`` and ``doc`` sub-folders of the "
 "site folder ``doc``. For URLs, these are plain bad, and would e.g. be "
@@ -98,11 +102,11 @@ msgid ""
 "and put into place, but it will just move and renamed pages."
 msgstr ""
 
-#: ../../README.rst:88
+#: ../../README.rst:90
 msgid "Directory ``posts/``"
 msgstr ""
 
-#: ../../README.rst:90
+#: ../../README.rst:92
 msgid ""
 "At this time, the blog posts, esp. old ones should not be translated. I "
 "believe often new content will be created in post form, and then moved "
@@ -112,22 +116,22 @@ msgid ""
 "have to be translated. This will come only later though."
 msgstr ""
 
-#: ../../README.rst:99
+#: ../../README.rst:101
 msgid "Page ``pages/donations.rst``"
 msgstr ""
 
-#: ../../README.rst:101
+#: ../../README.rst:103
 msgid ""
 "Yes, please go ahead. Let me know if there is any need to hint Paypal, or"
 " when Paypal is not available in your country, what alternative ways we "
 "could use."
 msgstr ""
 
-#: ../../README.rst:106
+#: ../../README.rst:108
 msgid "Page ``pages/overview.rst``"
 msgstr ""
 
-#: ../../README.rst:108
+#: ../../README.rst:110
 msgid ""
 "Please hold off from this one. It currently is a duplicate of content "
 "that is just the same in ``index.rst`` and not linked, so please ignore "
@@ -136,11 +140,11 @@ msgid ""
 "right now."
 msgstr ""
 
-#: ../../README.rst:115
+#: ../../README.rst:117
 msgid "Page ``pages/pyside2.rst``"
 msgstr ""
 
-#: ../../README.rst:117
+#: ../../README.rst:119
 msgid ""
 "Very important kind of page, of which I want to have more. Nuitka links "
 "itself to this from the plugin, and it's a landing page to inform users "
@@ -150,43 +154,43 @@ msgid ""
 "information, and even localized for their needs."
 msgstr ""
 
-#: ../../README.rst:125
+#: ../../README.rst:127
 msgid "Page ``pages/support.rst``"
 msgstr ""
 
-#: ../../README.rst:127
+#: ../../README.rst:129
 msgid ""
 "This one is not mentioning the Discord server yet, I will add that soon "
 "though. Very important page that should be linked to from many places."
 msgstr ""
 
-#: ../../README.rst:131
+#: ../../README.rst:133
 msgid "Page ``pages/gsoc2019.rst``"
 msgstr ""
 
-#: ../../README.rst:133
+#: ../../README.rst:135
 msgid ""
 "This is historical information, translation makes no sense, not sure what"
 " to do with it. But if Nuitka were to do it again, we would translate it "
 "ideally for the next time."
 msgstr ""
 
-#: ../../README.rst:138
+#: ../../README.rst:140
 msgid "Page ``pages/impressum.rst``"
 msgstr ""
 
-#: ../../README.rst:140
+#: ../../README.rst:142
 msgid ""
 "This one is required by law in my country, translators might want to add "
 "their information here. I cannot take responsibility for the content of "
 "translations, as I cannot verify it in many cases."
 msgstr ""
 
-#: ../../README.rst:145
+#: ../../README.rst:147
 msgid "Page ``pages/Presentations.rst``"
 msgstr ""
 
-#: ../../README.rst:147
+#: ../../README.rst:149
 msgid ""
 "This one probably should get more love content wise. It's under "
 "construction. I want to go over the blog and link all information from "
@@ -194,11 +198,11 @@ msgid ""
 " and add it."
 msgstr ""
 
-#: ../../README.rst:153
+#: ../../README.rst:155
 msgid "Page ``Streaming.rst``"
 msgstr ""
 
-#: ../../README.rst:155
+#: ../../README.rst:157
 msgid ""
 "Since this about an English offer, not sure it makes sense, I will also "
 "update it in near future somewhat, but making clear it's going to be an "
@@ -206,21 +210,21 @@ msgid ""
 "the beginning of the page, and then have untranslated content?"
 msgstr ""
 
-#: ../../README.rst:161
+#: ../../README.rst:163
 msgid "Page ``doc/api-doc.rst``"
 msgstr ""
 
-#: ../../README.rst:163
+#: ../../README.rst:165
 msgid ""
 "Translation makes no sense and cannot be done currently anyway. The API "
 "doc is going to be generated with Spinx, Doxygen docs are without love."
 msgstr ""
 
-#: ../../README.rst:167
+#: ../../README.rst:169
 msgid "Page ``doc/commercial.rst`` and folder ``commercial``"
 msgstr ""
 
-#: ../../README.rst:169
+#: ../../README.rst:171
 msgid ""
 "Translation is very welcome. There will be more content added over time. "
 "For payment options, please check out if they work for your country and "
@@ -229,67 +233,67 @@ msgid ""
 "(which I mean to add as an alternative still)."
 msgstr ""
 
-#: ../../README.rst:176
+#: ../../README.rst:178
 msgid "Page ``doc/factory.rst``"
 msgstr ""
 
-#: ../../README.rst:178
+#: ../../README.rst:180
 msgid "Very useful to have it translated."
 msgstr ""
 
-#: ../../README.rst:181
+#: ../../README.rst:183
 msgid "Page ``doc/welcome.rst``"
 msgstr ""
 
-#: ../../README.rst:183
+#: ../../README.rst:185
 msgid ""
 "This is just a playground for me, do not translate, unless we want to "
 "play around with translation mechanics. We will want to e.g. have an "
 "intelligent language switcher at some point, and could try it out there."
 msgstr ""
 
-#: ../../README.rst:188
+#: ../../README.rst:190
 msgid "Page ``doc/Changelog.rst``"
 msgstr ""
 
-#: ../../README.rst:190
+#: ../../README.rst:192
 msgid "Do not translate, this is a bizarre amount of work."
 msgstr ""
 
-#: ../../README.rst:193
+#: ../../README.rst:195
 msgid "Page ``download.rst``"
 msgstr ""
 
-#: ../../README.rst:195
+#: ../../README.rst:197
 msgid ""
 "Very welcome, but beware that ``download.rst.j2`` is the real source. "
 "Tables are generated into the document, this is probably a harder case "
 "technically, so hold off until this is sorted out."
 msgstr ""
 
-#: ../../README.rst:200
+#: ../../README.rst:202
 msgid "Page ``developer-manual.rst``"
 msgstr ""
 
-#: ../../README.rst:202
+#: ../../README.rst:204
 msgid ""
 "Makes no sense to translate. But potentially there is content that "
 "belongs to user manual in there or should be split off."
 msgstr ""
 
-#: ../../README.rst:206
+#: ../../README.rst:208
 msgid "Page ``roadmap.rst``"
 msgstr ""
 
-#: ../../README.rst:208
+#: ../../README.rst:210
 msgid "Much like changelog, not as much work, but also not as important."
 msgstr ""
 
-#: ../../README.rst:211
+#: ../../README.rst:213
 msgid "Page ``doc/user-manual.rst``"
 msgstr ""
 
-#: ../../README.rst:213
+#: ../../README.rst:215
 msgid ""
 "This one is most important in my mind, optimization section needs a "
 "serious update from my side, maybe ignore that, until I get there. Review"
@@ -297,7 +301,7 @@ msgid ""
 "separate documents."
 msgstr ""
 
-#: ../../README.rst:220
+#: ../../README.rst:222
 msgid "Image Optimization"
 msgstr ""
 
