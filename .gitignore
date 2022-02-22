@@ -8,3 +8,8 @@ output.*
 .vscode/tags
 _build/
 *.mo
+doc/doc/download.rst
+doc/posts/nuitka-release*.rst
+doc/posts/minor-release-nuitka-01*.rst
+doc/posts/release-nuitka-02*.rst
+doc/doc/Changelog.rst
